@@ -2,17 +2,17 @@ with flights as (
     select
         *
     from 
-        {{ ref('flights') }}
+        {{ ref("airports") }}
 ), airports as  (
     select
         *
     from
-        {{ ref('airports') }}
+        {{ ref("airports") }}
 ), carriers as  (
     select
         *
     from
-        {{ ref('carriers') }}
+        {{ ref("carriers") }}
 ) 
 
 select

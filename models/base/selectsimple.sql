@@ -1,0 +1,1 @@
+select * from landing_zone_flights.airports
